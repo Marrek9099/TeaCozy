@@ -18,7 +18,17 @@ body {
 
 
 .row {
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center ;
 }
 
 
@@ -32,9 +42,7 @@ nav {
     top: 0;
     height: 69px;
     padding: 0 10px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid seashell;
 }
 
@@ -67,8 +75,6 @@ nav ul li a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
 }
 
 #mission article {
@@ -95,8 +101,6 @@ nav ul li a {
 
 
 #month_tea > div {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -122,20 +126,28 @@ nav ul li a {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-#locations > div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 #locations div div {
     background-color: black;
     width: 300px;
     margin: 40px;
     line-height: 3;
+}
+
+
+/* Footer section styles */
+
+footer {
+    height: 200px;
+}
+
+footer h5{
+    margin: 20px 0;
+}
+
+footer span{
+    align-self: flex-start;
+    margin-left: 20px;
 }
