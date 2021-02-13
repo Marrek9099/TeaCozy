@@ -74,3 +74,33 @@ nav ul li a {
 #mission h4 {
     margin-top: 20px;
 }
+
+
+/* Tea of the month section styles */
+
+#month_tea {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+#month_tea > h4 {
+    margin: 20px 0 10px 0;
+}
+
+
+#month_tea > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#month_tea img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#month_tea div div {
+    padding: 15px;
+}
