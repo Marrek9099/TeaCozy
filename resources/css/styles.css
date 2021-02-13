@@ -21,14 +21,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-self: center;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center ;
+    justify-content: center;
 }
 
 
