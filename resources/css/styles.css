@@ -16,17 +16,21 @@ body {
     text-align: center;
 }
 
+
 /* Navbar Styles */
 
 nav {
-    position: sticky;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+    top: 0;
     height: 69px;
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid seashell;
-    
 }
 
 nav img {
@@ -45,4 +49,28 @@ nav ul li {
 
 nav ul li a {
     color: white;
+}
+
+
+/* Mission Section Styles */
+
+#mission {
+    width: 1200px;
+    height: 700px;
+    margin: 69px auto 0 auto;
+    background: url('../images/img-mission-background.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+}
+
+#mission article {
+    background-color: black;
+    padding: 10px;
+}
+
+#mission h4 {
+    margin-top: 20px;
 }
