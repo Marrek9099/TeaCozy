@@ -15,3 +15,34 @@ body {
     opacity: 0.9;
     text-align: center;
 }
+
+/* Navbar Styles */
+
+nav {
+    position: sticky;
+    height: 69px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+}
