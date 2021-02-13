@@ -17,6 +17,11 @@ body {
 }
 
 
+.row {
+    
+}
+
+
 /* Navbar Styles */
 
 nav {
@@ -62,11 +67,12 @@ nav ul li a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: grid;
+    display: flex;
     align-items: center;
 }
 
 #mission article {
+    width: 100%;
     background-color: black;
     padding: 10px;
 }
@@ -103,4 +109,33 @@ nav ul li a {
 
 #month_tea div div {
     padding: 15px;
+}
+
+
+/* Locations section styles */
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background: url('../images/img-locations-background.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations div div {
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+    line-height: 3;
 }
